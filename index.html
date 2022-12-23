@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>home | landing page</title>
+</head>
+
+<body id="home">
+<header>
+    <!-- NAVIGATION -->
+    <section class="navigation"> 
+        <div class="container">
+            <div class="box-navigation">
+                <div class="box">
+                    <h1>NEKO</h1>
+                </div>
+                <div class="box menu-navigation">
+                    <ul>
+                        <li>
+                            <i class="ri-home-2-fill"></i>
+                            <a href="#home">Beranda</a>
+                        </li>
+                        <li>
+                            <i class="ri-profile-fill"></i>
+                            <a href="#profil">Profil</a>
+                        </li>
+                        <li>
+                            <i class="ri-article-fill"></i>
+                            <a href="#artikel">Artikel</a>
+                        </li>
+                        <li>
+                            <i class="ri-question-answer-fill"></i>
+                            <a href="#contact">Kontak</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box menu-bar">
+                    <i class="ri-menu-line" style="color:white"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- NAVIGATION -->
+
+    <!-- HERO -->
+        <section class="hero">
+            <h1>PROJECT UAS <br> DASAR DASAR KOMPUTASI</h1>
+        </section>
+    <!-- HERO -->
+</header>
+
+    <!-- profil -->
+    <section class="profil" id="profil">
+        <div class="container">
+            <div class="box-profil">
+                <div class="box">
+                  
+                    <h1>David Naufal Zaki</h1>
+                    <p> .. I'm from Indonesia. I was born on October, 15th 2003. I live on Jawa Tengah. I am the fifth child in my family. I have 4 brother. My favorite color is brown. I like cats very much. I have a cats in my home.Its name is Kiyowo,Leo,Jenie,and Luna. My hobbies is browsing the internet, and playing games. My favorite subject is Programming. I hope to become an Programmer in the future. I think that's all about me. Thank you.</p>
+                </div>
+                <div class="box">
+                     <img src="./image/profile.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- profil -->
+    <!-- artikel -->
+    <section class="artikel" id="artikel">
+        <div class="container">
+            <div class="box-artikel">
+                <div class="box">
+                    <img src="./image/lokalan.jpg" alt="">
+                    <h1>Kucing Domestik</h1>
+                    <p>Kucing domestik atau yang juga biasa disebut sebagai kucing kampung merupakan kucing yang sudah ada pada zaman Mesir Kuno. Kucing jenis ini merupakan kucing yang berasal dari DNA kucing liar Afrika Utara atau Asia Barat.</p>
+                </div>
+                <div class="box">
+                    <img src="./image/persia.jpg" alt="">
+                    <h1>Kucing Persia</h1>
+                    <p>Sesuai dengan namanya, anabul ini berasal dari Persia, sebuah kerajaan di daerah Iran dan Afghanistan. Kucing ini mulai populer sejak abad ke-18, khususnya di Eropa. Banyak bangsawan Eropa yang begitu ingin memelihara kucing ini, nggak terkecuali Ratu Inggris saat itu, Ratu Victoria.</p>
+                </div>
+                <div class="box">
+                    <img src="./image/siamese.jpg" alt="">
+                    <h1>Kucing Siamese</h1>
+                    <p>Kucing siam adalah salah satu ras kucing pertama yang diakui jelas sebagai kucing berjenis oriental. Sesuai dengan namanya, kucing siam berasal dari negara Siam (sekarang Thailand), sehingga ras kucing ini sangat mudah ditemukan di negara Thailand.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- artikel -->
+    <!-- buku tamu -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="box-contact">
+                <h1>Contact</h1>
+                <form action="./dist/php/connect.php" method="get">
+                    <table>
+                        <tr>
+                            <td><label for="nama">nama</label></td>
+                            <td><input type="text" id="nama" name="nama" placeholder="masukkan nama" autocomplete="off"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">email</label></td>
+                            <td><input type="text" id="email" name="email" placeholder="masukkan email" autocomplete="off"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="pesan">pesan</label></td>
+                            <td><textarea name="pesan" id="pesan" cols="70" rows="5" placeholder="tidak menerima kritik dan saran"></textarea></td>
+                        </tr>
+                    </table>
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- buku tamu -->
+
+    <!-- footer -->
+    <footer>
+        <p>&copy; 2023 by Koneko-chan</p>
+    </footer>
+    <!-- footer -->
+   <script src="./dist/js/script.js"></script>
+</body>
+</html>
